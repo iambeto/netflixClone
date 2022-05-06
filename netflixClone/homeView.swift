@@ -9,20 +9,24 @@ struct homeView: View {
                 .edgesIgnoringSafeArea(.all)
             
             //main vstack
-            VStack{
-                
-            ForEach(vm.allCategories, id: \.self) { category in
-            VStack {
-                HStack {
-                    Text(category)
-                    Spacer()
-                    }
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack{
-                            ForEach(vm.getMovie(forCat: category)) { movie in
-                                standardHomeMovie(movie: movie)
-                                    .frame(width: 100, height: 200)
-                                    .padding(.horizontal, 20)
+            ScrollView(showsIndicators: false) {
+                LazyVStack{
+                    
+                ForEach(vm.allCategories, id: \.self) { category in
+                VStack {
+                    HStack {
+                        Text(category)
+                            .font(.title3)
+                            .bold()
+                        Spacer()
+                        }
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            LazyHStack{
+                                ForEach(vm.getMovie(forCat: category)) { movie in
+                                    standardHomeMovie(movie: movie)
+                                        .frame(width: 100, height: 200)
+                                        .padding(.horizontal, 20)
+                                    }
                                 }
                             }
                         }
