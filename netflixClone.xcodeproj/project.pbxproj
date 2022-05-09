@@ -16,6 +16,7 @@
 		DA5BA12E282462E3002EE28B /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5BA12D282462E3002EE28B /* movie.swift */; };
 		DA5BA130282463C1002EE28B /* standardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5BA12F282463C1002EE28B /* standardHomeMovie.swift */; };
 		DA5BA132282464B0002EE28B /* globalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5BA131282464B0002EE28B /* globalHelpers.swift */; };
+		DA6F3D232829B0650002719E /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F3D222829B0650002719E /* TopMoviePreview.swift */; };
 		DAF17EE028246F8F007137B6 /* homeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF17EDF28246F8F007137B6 /* homeVM.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		DA5BA12D282462E3002EE28B /* movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
 		DA5BA12F282463C1002EE28B /* standardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standardHomeMovie.swift; sourceTree = "<group>"; };
 		DA5BA131282464B0002EE28B /* globalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalHelpers.swift; sourceTree = "<group>"; };
+		DA6F3D222829B0650002719E /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		DAF17EDF28246F8F007137B6 /* homeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				DA5BA12D282462E3002EE28B /* movie.swift */,
 				DA5BA12F282463C1002EE28B /* standardHomeMovie.swift */,
 				DA5BA131282464B0002EE28B /* globalHelpers.swift */,
+				DA6F3D222829B0650002719E /* TopMoviePreview.swift */,
 				DA5BA11C282457EC002EE28B /* Assets.xcassets */,
 				DA5BA11E282457EC002EE28B /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 				DA5BA132282464B0002EE28B /* globalHelpers.swift in Sources */,
 				DAF17EE028246F8F007137B6 /* homeVM.swift in Sources */,
 				DA5BA12E282462E3002EE28B /* movie.swift in Sources */,
+				DA6F3D232829B0650002719E /* TopMoviePreview.swift in Sources */,
 				DA5BA12928245DB9002EE28B /* homeView.swift in Sources */,
 				DA5BA130282463C1002EE28B /* standardHomeMovie.swift in Sources */,
 			);
